@@ -1,4 +1,4 @@
-const CACHE_NAME = 'meu-remedio-v2';
+const CACHE_NAME = 'meu-remedio-v3';
 const fromScope = (path) => new URL(path, self.registration.scope).toString();
 const APP_SHELL = [
   fromScope('./'),
